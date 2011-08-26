@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="PHP">
+  <template name="try" value="try {&#10;    $CODE$&#10;} catch (Exeption $e) {&#10;    $this-&gt;error(&quot;$MSG$&quot;, $e-&gt;getMessage(), $e);&#10;}&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+
